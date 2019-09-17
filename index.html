@@ -1,0 +1,114 @@
+<!-- HW4 Crystal Game - Match the given number by clicking the gem stones. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>HW4 Crystal Game</title>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4"><strong>Crystal Game</strong></h1><br>
+                <p class="lead">
+                    <h2>Match the given number by clicking the gem stones.</h2>
+                </p>
+            </div>
+        </div>
+        <button id="continueBtn" type="button" class="btn btn-danger btn-lg btn-block">Click for another round</button>
+        <div class="card-group">
+            <div class="card">
+                <div class="card-header">Match</div>
+                <div class="card-body">
+                    <h1>
+                        <p id="targetNumber">
+                        </p>
+                    </h1>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Sum</div>
+                <div class="card-body">
+                    <h1>
+                        <p id="sum"></p>
+                    </h1>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Score</div>
+                <div class="card-body">
+                    <h5>
+                        <p>Wins:&nbsp;</p><span id="win"></span><br>
+                        <p>Loses:&nbsp;</p><span id="lose"></span>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <img src="assets/images/bluegem.jpeg" class="card-img-top gem0">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <img src="assets/images/redgem.png" class="card-img-top gem1">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <img src="assets/images/diamondgem.png" class="card-img-top gem2">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <img src="assets/images/yellowgem.png" class="card-img-top gem3">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <img src="assets/images/greengem.png" class="card-img-top gem4">
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h3>
+                        <p id="message">
+                        </p>
+                    </h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h3>
+                        <div id="startOver">
+                        </div>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

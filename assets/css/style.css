@@ -1,0 +1,32 @@
+/* HW4 Crystal Game - Match the given number by clicking the gem stones. */
+body {
+    background-color: rgba(63, 16, 16, 0.194);
+}
+.jumbotron {
+    background-color: rgb(247, 130, 6);
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+.mainContainer{
+    width: 50%;
+    margin: 10px auto;
+}
+.card-header, .card-body, h2, h1 {
+    text-align: center;
+}
+p {
+    display: inline;
+}
+h2 {
+    font-weight: lighter;
+}
+#startOver {
+    color: red;
+}
+button {
+  margin-top: -36px;
+}
+.lead, .display-4 {
+    line-height: 80%;
+}
